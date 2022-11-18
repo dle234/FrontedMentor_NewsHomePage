@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 'inter';
+    src: url('C:\Windows\Fonts\Inter');
+    
+}
+body{
+     margin:0px;
+}
+
+*{  font-family: inter;
+    width: 1440px;
+    background-color: hsl(36, 100%, 99%);
+    box-sizing:border-box;
+    
+}
+a{
+    text-decoration: none
+}
+
+
+header{
+    
+    width: auto;
+    
+    box-sizing: border-box;
+    margin:100px 20px 50px 180px ;
+    display: flex;
+    justify-content:space-between;
+    
+}
+    
+header img{
+    width :65px;
+}
+.header_bar{
+    width: 40%;
+    display: flex;
+    
+    list-style: none;
+    position: relative;
+    right: 85px;
+}
+.header_bar li{
+    margin : 0px 17px 0px 17px;
+    
+}
+.header_bar a{
+    color:hsl(236, 13%, 42%) ;
+    font-size: 17px;
+    transition: all 0.1s;}
+
+.header_bar a:hover{
+    color: hsl(5, 85%, 63%);
+    
+}
+
+
+/*-------------------------------------------*/
+
+
+
+nav{
+    width: auto;
+    
+    padding:0px 10px 0px 180px ;
+    
+}
+.navletter{
+    display: flex;
+    width: 70%;
+}
+#left_nav{
+    font-weight: 800;
+    font-size:60px;
+    width: 40%;
+    margin-right: 40px;
+    margin-top: 10px;
+    line-height :63px;
+}
+#right_nav_box_button{
+    width: 55%;
+    background-color:  hsl(5, 85%, 63%);
+    padding: 15px 0px 15px 0px;
+    color : hsl(36, 100%, 99%);
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 23px;
+    transition: all 0.1s;
+}
+#right_nav_box_button:hover{
+    background-color:hsl(240, 100%, 5%);
+}
+#right_nav{
+    color:hsl(236, 13%, 42%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 41%;
+    margin-left: 15px;
+    
+}
+#rigth_nav_letters{
+    line-height: 25px;
+    font-size: 16px;
+}
+nav img{
+    padding-bottom: 20px;
+}
+
+/*---------------------------------------*/
+
+.aside{
+    box-sizing: border-box;
+    width: 23%;
+    height: 537px;
+    background-color: hsl(240, 100%, 5%);
+    position:absolute;
+    right: 185px;
+    top: 202px;
+    /*ㅜㅜ position 없이 하는 법 찾아보기...*/
+}
+
+
+.aside a{
+    width: 350px;
+   
+    background-color: hsl(240, 100%, 5%);
+    color:hsl(36, 100%, 99%);
+    display: flex;
+
+    
+
+}
+#aside_1{
+    display: flex;
+    flex-direction:column; 
+
+    flex-wrap: wrap;
+    
+}
+
+
+#hy:hover{
+    color:hsl(35, 77%, 62%);
+}
+#The:hover{
+    color:hsl(35, 77%, 62%);
+}
+#Is:hover{
+    color:hsl(35, 77%, 62%);
+}
+
+#new{
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(35, 77%, 62%);
+    padding: 30px 30px 15px 25px;
+}
+hr{
+    border: none;
+    margin:0px;
+    height: 1.5px;
+    background-color:hsl(236, 13%, 42%);
+    width: 24.3%;
+    align-items: center;
+    position: relative;
+    
+    overflow: visible;
+    
+}
+hr:after{
+    content: "----";
+    position: relative;
+    left:291px;
+    background-color: hsl(240, 100%, 5%);
+}
+hr::before{
+    content: "----";
+    background-color: hsl(240, 100%, 5%);
+}
+#hy{
+    font-size: 20px;
+    font-weight: 700;
+    color:  hsl(36, 100%, 99%);
+    padding: 10px 30px 15px 25px;
+    transition: all 0.1s;
+
+}
+#will{
+    font-size: 15px;
+    
+    color:  hsl(233, 8%, 79%);
+    padding: 0px 30px 30px 25px;
+    line-height : 25px;
+}
+#The{
+    font-size: 20px;
+    font-weight: 700;
+    color:  hsl(36, 100%, 99%);
+    padding: 30px 30px 15px 25px;
+    transition: all 0.1s;
+}
+#What{
+    font-size: 15px;
+    
+    color:  hsl(233, 8%, 79%);
+    padding: 0px 35px 30px 25px;
+    line-height : 25px;
+}
+#Is{
+    font-size: 20px;
+    font-weight: 700;
+    color:  hsl(36, 100%, 99%);
+    padding: 30px 30px 15px 25px;
+    transition: all 0.1s;
+}
+#Private{
+    font-size: 15px;
+    
+    color:  hsl(233, 8%, 79%);
+    padding: 0px 35px 0px 25px;
+    line-height : 25px;
+}
+
+/*----------------------------------------------------*/
+
+
+footer img{
+    height: 145px;
+}
+.foot{
+    display: flex;
+    width: 80%;
+    margin:65px 20px 50px 175px; 
+}
+#footer_1{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 24%;
+    margin-left: 25px;
+}
+#footer_2{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 24%;
+    margin-left: 20px;
+}
+#footer_3{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 24%;
+    margin-left: 20px;
+    padding-left: 10px;
+    
+}
+#foot13{
+    width: 80%;
+    margin-top: 0px;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    line-height : 25px;
+}
+#foot11{
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 35px;
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+}
+#foot12k{
+    margin-top: 0px;
+    font-weight: 800;
+    color:hsl(240, 100%, 5%);
+    font-size: 17px;
+    transition: all 0.1s;
+}
+#foot23{
+    width: 80%;
+    margin-top: 0px;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    line-height : 25px;
+}
+#foot21{
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 35px;
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+}
+#foot22k{
+    margin-top: 0px;
+    font-weight: 800;
+    color:hsl(240, 100%, 5%);
+    font-size: 17px;
+    transition: all 0.1s;
+}
+#foot33{
+    width: 80%;
+    margin-top: 0px;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    line-height : 25px;
+}
+#foot31{
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 35px;
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+}
+#foot32k{
+    margin-top: 0px;
+    font-weight: 800;
+    color:hsl(240, 100%, 5%);
+    font-size: 17px;
+    transition: all 0.1s;
+}
+/*
+[id$='2k'] :hover{
+    background-color: aqua;
+}
+이거 왜 안될까...*/
+
+#foot12k:hover{
+   color: hsl(5, 85%, 63%);
+}
+#foot22k:hover{
+    color: hsl(5, 85%, 63%);
+ }
+ #foot32k:hover{
+    color: hsl(5, 85%, 63%);
+ }
